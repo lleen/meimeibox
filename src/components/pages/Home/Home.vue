@@ -1,25 +1,22 @@
 <template>
   <div id = "app-home">
-    <home-stion></home-stion>
+    <home-search-bar></home-search-bar>
+    <home-container></home-container>
   </div>
 </template>
 
 <script>
-
-// 二级路由跳转
-import HomeStion from './Stion/HomeStion'
-
+// 引入轮播图
+import HomeContainer from './container/HomeContainer'
+import HomeSearchBar from './HomeSearchBar'
 export default {
   name: 'AppHome',
   components: {
-    HomeStion
+    HomeContainer,
+    HomeSearchBar,
   }
 }
 </script>
-<style>
-#app-home{
-  display: flex; flex-direction: column;height: 100%;
-  /* padding-top: 45px; */
-}
+<style lang="scss" scoped>
+ 
 </style>
-
