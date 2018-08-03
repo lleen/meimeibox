@@ -6,13 +6,9 @@
 
 <script>
 // 引入Home
-import AppHome from './components/pages/Home/Home'
 
 export default {
-  name: 'App',
-  components: {
-    AppHome
-  }
+  name: 'App'
 }
 </script>
 <style>
